@@ -156,7 +156,7 @@ class _HomePageState extends State<HomePage> {
             featuredGames[_selectedGame].title,
             maxLines: 2,
             style:
-            TextStyle(color: Colors.white, fontSize: _deviceHeight * 0.035, fontWeight: FontWeight.bold),
+            TextStyle(color: Colors.white, fontSize: _deviceHeight * 0.035, fontWeight: FontWeight.bold), 
           ),
           SizedBox(height: _deviceHeight * 0.01),
           Row(
