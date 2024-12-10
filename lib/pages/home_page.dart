@@ -188,7 +188,7 @@ class _HomePageState extends State<HomePage> {
       height: _deviceHeight * 0.13,
       width: _deviceWidth,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(5),
+        borderRadius: BorderRadius.circular(5), 
         image: DecorationImage(
           fit: BoxFit.cover,
           image: NetworkImage(featuredGames[3].coverImage.url),
